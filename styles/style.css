@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: black;
+}
+
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__container{
+    position: fixed;
+    background-color: #000000;
+    padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__logo{
+   color: #FFF;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 38.13px;
+}
+
+.nav .nav-list{
+    list-style: none;
+    display: flex;
+    gap: 81px;
+    margin-left: 670px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.51px;
+    transition: all 0.5s linear;
+}
+
+a:hover{
+    color: #a39e9e;
+}
+
+.button a{
+     background-color: #FFF;
+     border-radius: 20px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: all 0.5s linear;
+    
+}
+
+.button  a:hover{
+    background-color: #ccc6c6;
+}
+
+.hero__container{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+}
+
+.hero__link .sub{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 78px;
+    color: #FFF;
+}
+
+.hero__link .subtitle{
+    font-family: 'Nunito Sans';
+     font-size: 20px;
+    letter-spacing: 2px;
+     line-height: 78px;
+    color: #FFF;
+    margin-bottom: 34px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.black__button a{
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.5s linear;
+
+}
+
+.black__button a:hover{
+    background-color: #0f0f0f;
+}
+
+.image{
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.icon{
+    margin-top: 90px;
+}
+
+
+.icon .best{
+   color: #FFF;
+   margin-left: -19px;
+}
+
+.najottalim__container{
+  margin-top: 70px;
+}
+
